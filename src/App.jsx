@@ -9,6 +9,7 @@ import ProgramPage from "./pages/ProgramPage";
 import ArtikelPage from "./pages/ArtikelPage";
 import KaryaPage from "./pages/KaryaPage";
 import TentangKamiPage from "./pages/TentangKamiPage";
+import KelasPage from "./pages/KelasPage";
 
 function App() {
   return (
@@ -20,8 +21,9 @@ function App() {
         <Route path="/" Component={HomePage} />
         <Route path="/program" Component={ProgramPage} />
         <Route path="/artikel" Component={ArtikelPage} />
-        <Route path="/karya" Component={KaryaPage} />
+        <Route path="/karya-siswa" Component={KaryaPage} />
         <Route path="/tentangkami" Component={TentangKamiPage} />
+        <Route path="/kelaspage" Component={KelasPage} />
       </Routes>
 
       <FooterComponent />

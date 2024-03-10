@@ -8,30 +8,16 @@ export const navLinksDrop = [
         name: "Seni Rupa ",
       },
       {
-        path: "/kelas-seni-sastra",
-        name: "Seni Sastra",
-      },
-      {
         path: "/kelas-seni-musik",
         name: "Seni Musik",
       },
       {
+        path: "/kelas-seni-sastra",
+        name: "Seni Sastra",
+      },
+      {
         path: "/kelas-seni-pertunjukan",
         name: "Seni Pertunjukan",
-      },
-    ],
-  },
-  {
-    id: 2,
-    text: "Artikel",
-    sub: [
-      {
-        path: "/berita-seni",
-        name: "Berita Seni",
-      },
-      {
-        path: "/sekolahan",
-        name: "Sekolahan",
       },
     ],
   },
@@ -45,6 +31,11 @@ export const navLinks = [
   },
   {
     id: 2,
+    path: "/artikel",
+    text: "Artikel",
+  },
+  {
+    id: 3,
     path: "/tentang-kami",
     text: "Tentang Kami",
   },
